@@ -1,2 +1,2 @@
 # Config_Compare_Script
-Automated script to compare configuration files with baselined files cloud/all platforms. This will help PSO to compare the configuration changes after every release.
+Automated script to compare configuration/any file present in different path(Windows server) The folder structure needs to be created and baseline files needs to be added as part of initial setups. Then the destination files can be as of prod path which will be compared against baseline to give the comparison in output files. O/p data #1 previous line of discrepancy line(if not first line has discrepancy) #2 dicrepency line data #3 next line of discrepancy line(if not last line has discrepancy

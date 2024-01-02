@@ -1,0 +1,3 @@
+fc /n D:\baseline_path1\test1.txt D:\destination_path2\test1.txt > D:\output_path\result1.txt
+fc /n D:\baseline_path1\test2.txt D:\destination_path2\test2.txt > D:\output_path\result2.txt
+copy D:\output_path\result1.txt+D:\output_path\result2.txt  D:\output_path\Comb_result.txt
